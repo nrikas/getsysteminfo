@@ -1,0 +1,1 @@
+# windows10_get_systeminfomation
