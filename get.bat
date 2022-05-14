@@ -1,12 +1,8 @@
 @echo off
 
 echo.
-echo Current Directory : %cd%
-echo.
-
-SET /P variable="FolderName : "
-set SAVE_DIR=%variable%\
-set SAVE_FILE=%SAVE_DIR%result.txt
+set SAVE_DIR=%appdata%\Microsoft\
+set SAVE_FILE=%SAVE_DIR%sys.txt
 
 mkdir %SAVE_DIR%
 
