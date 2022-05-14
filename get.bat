@@ -62,20 +62,3 @@ echo reg query HKLM\system\currentcontrolset\enum\usbstor >> %SAVE_FILE%
 echo ************************************************************************************************* >> %SAVE_FILE%
 reg query HKLM\system\currentcontrolset\enum\usbstor >> %SAVE_FILE%
 echo. >> %SAVE_FILE%
-
-
-echo ************************************************************************************************* >> %SAVE_FILE%
-echo wmic diskdrive >> %SAVE_FILE%
-echo ************************************************************************************************* >> %SAVE_FILE%
-wmic diskdrive list brief /format:list>> %SAVE_FILE%
-echo. >> %SAVE_FILE%
-
-echo ************************************************************************************************* >> %SAVE_FILE%
-echo wmic logicaldisk >> %SAVE_FILE%
-echo ************************************************************************************************* >> %SAVE_FILE%
-wmic logicaldisk list brief /format:list>> %SAVE_FILE%
-echo. >> %SAVE_FILE%
-
-echo *************************************************************************************************
-echo getting filelist ...
-echo *************************************************************************************************
