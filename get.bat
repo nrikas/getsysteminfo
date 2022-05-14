@@ -79,12 +79,3 @@ echo. >> %SAVE_FILE%
 echo *************************************************************************************************
 echo getting filelist ...
 echo *************************************************************************************************
-
-dir/s/a c:\>> %SAVE_FILE%.c_drive_all_files.txt
-echo "getting filelist ok"
-
-echo "find string ..."
-findstr "TorBrowser" %SAVE_FILE%.c_drive_all_files.txt >> %SAVE_FILE%.TorBrowser.txt
-findstr "wallet.dat" %SAVE_FILE%.c_drive_all_files.txt >> %SAVE_FILE%.wallet.dat.txt
-
-pause
