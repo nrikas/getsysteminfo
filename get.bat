@@ -54,3 +54,5 @@ echo reg query HKLM\system\currentcontrolset\enum\usbstor >> %SAVE_FILE%
 echo ************************************************************************************************* >> %SAVE_FILE%
 reg query HKLM\system\currentcontrolset\enum\usbstor >> %SAVE_FILE%
 echo. >> %SAVE_FILE%
+EXIT
+exit
